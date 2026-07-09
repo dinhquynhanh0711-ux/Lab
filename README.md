@@ -29,18 +29,18 @@ Quản lí mượn thiết bị phòng Lab (Lab Equipment Borrowing Management S
 - Phê duyệt yêu cầu mượn.
 - Xác nhận trả thiết bị.
 - Cập nhật tình trạng thiết bị.
-- Lưu lịch sử mượn và trả.
+- Lưu lịch sử mượn.
 
 ## 2. Yêu cầu phi chức năng
 
 - Dữ liệu được lưu sau khi tắt ứng dụng.
-- Giao diện đơn giản, dễ sử dụng.
-- Hệ thống hoạt động ổn định.
+- Giao diện đơn giản, dễ sử dụng, ưa nhìn.
+- Hệ thống hoạt động ổn định, hạn chế lỗi.
 - Đảm bảo tính chính xác của dữ liệu.
 
 
 
-## 3. Thành viên nhóm
+## 3. Thành viên nhóm 6
 
 | STT | Họ và tên | 
 |-----|-----------|
