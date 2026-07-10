@@ -22,6 +22,15 @@ Quản lí mượn thiết bị phòng Lab (Lab Equipment Borrowing Management S
 
 
 ## 1. Yêu cầu chức năng
+Khi người dùng muốn sử dụng thiết bị của phòng Lab, người dùng cần đăng nhập vào hệ thống bằng tài khoản đã được cấp. Sau khi đăng nhập, người dùng có thể xem danh sách các thiết bị hiện có cùng với các thông tin như: mã thiết bị, tên thiết bị, loại thiết bị, số lượng còn lại và tình trạng sử dụng (có sẵn, đang được mượn hoặc đang bảo trì). Người dùng lựa chọn thiết bị cần sử dụng, nhập số lượng cần mượn, thời gian mượn và thời gian trả dự kiến, sau đó gửi yêu cầu mượn đến hệ thống.
+
+Mỗi yêu cầu mượn sẽ được lưu dưới dạng một phiếu mượn, bao gồm các thông tin như: mã phiếu mượn, mã người dùng, ngày gửi yêu cầu, thời gian mượn, thời gian trả dự kiến, danh sách thiết bị được mượn, số lượng của từng thiết bị và trạng thái của yêu cầu (chờ duyệt, đã duyệt hoặc từ chối).
+
+Sau khi nhận được yêu cầu, quản trị viên (admin) sẽ kiểm tra số lượng và tình trạng của thiết bị để quyết định phê duyệt hoặc từ chối yêu cầu mượn. Nếu yêu cầu được phê duyệt, hệ thống sẽ cập nhật số lượng thiết bị còn lại và chuyển trạng thái của phiếu mượn sang đã duyệt. Trong trường hợp thiết bị không đủ số lượng hoặc đang được sử dụng, quản trị viên có thể từ chối yêu cầu và thông báo lý do cho người dùng.
+
+Toàn bộ thông tin về quá trình mượn thiết bị sẽ được hệ thống lưu trữ dưới dạng lịch sử mượn. Lịch sử này bao gồm thông tin người mượn, thiết bị đã mượn, thời gian mượn, số lượng thiết bị và trạng thái của từng lần mượn, giúp người quản lý dễ dàng tra cứu, thống kê và theo dõi việc sử dụng thiết bị trong phòng Lab.
+
+Tổng hợp lại các chức năng chính như:
 
 - Đăng nhập hệ thống.
 - Xem danh sách thiết bị.
